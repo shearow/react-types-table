@@ -1,9 +1,3 @@
-
-export interface Welcome {
-    results: Person[];
-    info:    Info;
-}
-
 export interface PersonsList {
     picture: string,
     name: string,
@@ -11,9 +5,10 @@ export interface PersonsList {
     id: string
 }
 
-
-
-
+export interface Welcome {
+    results: Person[];
+    info:    Info;
+}
 
 export interface Info {
     seed:    string;

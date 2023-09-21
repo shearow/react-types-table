@@ -21,7 +21,8 @@
     background-color: burlywood;
     border-radius: 1rem;
 }
-.list-users-table table {
+.list-users-table table {    
+    overflow: hidden;
     width: 100%;
     padding: .5rem;    
     text-align: center;
@@ -33,6 +34,7 @@
 .list-users-table table tbody td {
     padding: .2rem 0;
     font-weight: bold;
+    animation: opacityAnim 1s;
 }
 .list-users-table table img {
     margin: 0 auto;
@@ -57,4 +59,8 @@
 }
 .list-users-table tbody.activeColor tr:nth-child(2n) {
     background-color: rgba(62, 58, 58, 0.444);
+}
+@keyframes opacityAnim {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
