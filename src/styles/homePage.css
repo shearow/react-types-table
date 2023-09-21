@@ -1,0 +1,60 @@
+.list-users {
+    padding: 1rem;
+}
+.list-users-title {
+    padding: 2rem 0 .5rem 0;
+    font-size: 3rem;
+    text-align: center;
+}
+.list-users .list-users-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+.list-users-options button,
+.list-users-options input {
+    padding: .5rem;
+}
+.list-users-table {
+    background-color: burlywood;
+    border-radius: 1rem;
+}
+.list-users-table table {
+    width: 100%;
+    padding: .5rem;    
+    text-align: center;
+    border-collapse: collapse;
+}
+.list-users-table table thead th {
+    padding: 1rem 0;
+}
+.list-users-table table tbody td {
+    padding: .2rem 0;
+    font-weight: bold;
+}
+.list-users-table table img {
+    margin: 0 auto;
+    max-height: 6rem;
+    border-radius: 2rem;
+    border: .1rem solid rgba(202, 143, 66, 0.805);
+}
+.list-users-table table button {
+    padding: .7rem .8rem;
+    border-radius: 1rem;
+    border: .1rem solid rgba(202, 143, 66, 0.805);
+    box-shadow: 0 0 1rem .1rem rgba(0, 0, 0, 0.32);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.list-users-table table tr {
+    border-bottom: .1rem solid rgba(202, 143, 66, 0.805);
+}
+.list-users-table tbody.activeColor tr:nth-child(1n) {
+    background-color: rgba(128, 128, 128, 0.39);
+}
+.list-users-table tbody.activeColor tr:nth-child(2n) {
+    background-color: rgba(62, 58, 58, 0.444);
+}

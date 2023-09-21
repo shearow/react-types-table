@@ -1,0 +1,32 @@
+.main-nav {
+    padding: .5rem 1rem;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav .logo-image {
+    height: 6rem;
+}
+.main-nav .logo-image img {
+    max-height: 100%;
+    border-radius: 50%;
+}
+.main-nav nav ul {
+    display: flex;
+    flex-direction: row;
+}
+.main-nav nav ul li {    
+    font-size: 2rem;
+}
+.main-nav nav ul li a {    
+    padding: 1rem;
+    color: brown;
+    transition: background-color .3s ease;
+}
+.main-nav nav ul li a:hover {    
+    background-color: rgb(235, 156, 8);
+    color: rgb(255, 10, 10);
+    box-shadow: 0 0 1rem .1rem #0000001c;
+}
